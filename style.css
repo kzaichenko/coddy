@@ -72,10 +72,10 @@ span {
  .main2 {
 	background-color: #fff;
 	display: flex;
-	width: 95%;
+	width: 100%;
 	max-width: 1000px;
 	margin: auto;
-	box-shadow: 0 0 10px 1px magenta;
+	/*box-shadow: 0 0 10px 1px magenta;*/
 	flex-wrap: wrap;
 
  }
@@ -92,6 +92,17 @@ span {
 
 	background-position: center;
 	background-size: cover;
+ }
+
+ .item2 {
+ 	max-height: 265px;
+ 	max-width: 490px;
+ 	width: 100%;
+ 	height: 100%;
+ 	background-color: dodgerblue;
+ 	margin: 5px;
+ 	background-size: cover;
+ 	opacity: 0.5;
  }
 
  .item:hover {
@@ -112,10 +123,10 @@ span {
    	 column-gap: 0;
    }
 
-   .image {
+.image {
    	display: block;
    	width: 100%;
-   }
+ }
 
    .image + .image {
    	margin: 3px;
@@ -123,7 +134,25 @@ span {
 
    .image-wrapper {
    	display: block;
+   	z-index: 1;
    }
+
+ .image {
+ 	/*filter:  blur(5px) sepia(0);*/
+ 
+ }
+
+.image:hover {
+	transition: opacity 0.4s ease;
+
+	transform: scale(2) rotate(15deg);
+
+	z-index: 10;
+
+	filter: grayscale(10);
+	/*filter: blur(0) sepia(1.2);*/
+	
+}
 
 .image-wrapper + .image-wrapper {
 	margin: 3px 0;

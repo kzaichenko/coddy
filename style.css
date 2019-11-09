@@ -1,5 +1,5 @@
 * {
-	margin:  0px;
+	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -7,153 +7,150 @@
 }
 
 body {
-	background-color: #ff6f5e
+	background-color: #fcf9ea;
 }
 
 h1 {
 	text-align: center;
-	color: pink;
+	color: #f0d78c;
+	background-color: #315b96;
 }
 
-p {
-	color: purple;
-	padding: 10px 20px;
-	font-weight: bold;
-	font-size: 28px;
-}
-
-a{
-	width: 170px;
-	height: 200px;
-	display: inline-block;
-	margin: 10px;
-	opacity: 0.5;
-	text-decoration: none;
-	color:purple; 
-}
-
-a:hover {
-	box-shadow: 3px 3px 3px 3px pink;
-										/*тень блока: 
-										*сдвиг по х 
-										*сдвиг по у
-										*размытие по х
-										*размытие по у
-										*цвет тени  
-									 */
-    transition: 3s;
-    opacity: 1;
-
-}
-a:visited{
-	color:magenta;
-}
-
-img{
-	width: 90%;
-	display: block;
-	margin: auto;
-}
-
-
-span {
-	display: block;
+h2 {
 	text-align: center;
-	padding: 10px 0;
+	color: #e7f3ee;
+	background-color: #3c9d9b;
 }
 
- .main {
- 	 max-width: 1000px;
- 	 margin:auto;
- 	 border: 5px solid #f0134d;
- 	 background-color: #40bfc1;
- } 
+.main {
+	max-width: 1000px;
+	margin: auto;
+	background-color: #ecfcff;
+	border: 1px solid #badfdb;
+}
 
- .main2 {
+.items {
 	background-color: #fff;
 	display: flex;
 	width: 100%;
 	max-width: 1000px;
 	margin: auto;
-	/*box-shadow: 0 0 10px 1px magenta;*/
+	/*box-shadow: 0 0 10px 1px grey;*/
 	flex-wrap: wrap;
+}
 
- }
-
- .item {
- 	max-height: 265px;
- 	max-width: 490px;
- 	width: calc(50% - 10px);
- 	height: calc(95vw / 2 / 16 * 9);
- 	background-color: dodgerblue;
- 	margin: 5px;
- 	background-size: cover;
- 	opacity: 0.5;
+.item {
+	/*голубые блоки*/
+	max-height: 265px;
+	max-width: 239px;
+	width: calc(25% - 10px);
+	height: calc(95vw / 4 / 16 * 9);
+	background-color: dodgerblue;
+	margin: 5px;
+	opacity: 0.5;
 
 	background-position: center;
 	background-size: cover;
- }
+}
 
- .item2 {
- 	max-height: 265px;
- 	max-width: 490px;
- 	width: 100%;
- 	height: 100%;
- 	background-color: dodgerblue;
- 	margin: 5px;
- 	background-size: cover;
- 	opacity: 0.5;
- }
+p {
+	color: red;
+	padding: 10px 20px;
+	font-weight: bold;/*текст: жирный*/
+	font-size: 28px;
+}
 
- .item:hover {
+a {
+	width: 176px;
+	height: 200px;
+	display: inline-block;
+	margin: 10px;
+	opacity: 0.5;
+	text-decoration: none;
+	color: blue;
+}
+
+/*:hover - срабатывает только при наведении мыши*/
+a.item:hover {
+	box-shadow: 3px 3px 3px 3px grey;
+	transition: transform 0.5s linear;
 	opacity: 1;
- }
-
- .item img {
- 	height:100%;
- 	width:100%;
- }
- .img_link {
- 	 display: block;
-
- }
-
-   .img-box {
-   	 column-count: 4;
-   	 column-gap: 0;
-   }
-
-.image {
-   	display: block;
-   	width: 100%;
- }
-
-   .image + .image {
-   	margin: 3px;
-   }
-
-   .image-wrapper {
-   	display: block;
-   	z-index: 1;
-   }
-
- .image {
- 	/*filter:  blur(5px) sepia(0);*/
- 
- }
-
-.image:hover {
-	transition: opacity 0.4s ease;
-
-	transform: scale(2) rotate(15deg);
-
-	z-index: 10;
-
-	filter: grayscale(10);
-	/*filter: blur(0) sepia(1.2);*/
-	
+	transform: rotate(720deg) scale(1.5);
+	z-index: 100;
 }
 
-.image-wrapper + .image-wrapper {
-	margin: 3px 0;
+a.item:visited {
+	border-color: #ff8080;
 }
+
+.item_img {
+	max-height: 265px;
+	max-width: 239px;
+	width: 100%;
+	height: calc(95vw / 4 / 16 * 9);
+}
+
+.item_description {
+	display: none;
+	background-color: #bd83ce;
+	color: white;
+	text-align: center;
+}
+
+a:hover .item_description {
+	display: block;
+}
+
+@media all and (max-width: 320px) {
+	.item {
+		max-width: 100%;
+		max-height: initial;
+		width: 100%;
+		height: calc(95vw / 16 * 9);
+	}
+
+	.item_img {
+		max-width: 100%;
+	     width: 100%;
+	     height: calc(95vw / 16* 9);
+	}
+}
+
+@media all and (max-width: 480px) and (min-width: 321px) {
+	.item {
+		max-width: 265px;
+		max-height: 490px;
+		width: calc(50% - 10px);
+		height: calc(95vw / 2 / 16 * 9);
+	}
+
+	.item_img {
+		max-width: 100%;
+	     width: 100%;
+	     height: calc(95vw / 2 / 16* 9);
+	}
+}
+@media all and (max-width: 768px) and (min-width: 481px) {
+	.item {
+		max-width: 265px;
+		max-height: 490px;
+		width: calc(100% / 3 - 10px);
+		height: calc(95vw / 3 / 16 * 9);
+	}
+
+	.item_img {
+		max-width: 100%;
+	     width: 100%;
+	     height: calc(95vw / 3 / 16* 9);
+	}
+}
+ footer {
+ 	background-color: purple;
+ 	padding: 10px;
+ }
+
+ footer a {
+ 	height: 20px;
+ 	color:white;
+ 	font-weight: bold;
+ }

@@ -4,6 +4,54 @@
 		"selected_items":
 		[
 			[
+				"item",
+				"item_description"
+			],
+			[
+				"it",
+				"item_description"
+			],
+			[
+				"item_",
+				"item_description"
+			],
+			[
+				"ite",
+				"item_img"
+			],
+			[
+				"a",
+				"alt\tAttr"
+			],
+			[
+				"font",
+				"font-weight\tproperty"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"min",
+				"min-width\tproperty"
+			],
+			[
+				"ma",
+				"max-width\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"max",
+				"max-height\tproperty"
+			],
+			[
 				"ord",
 				"order"
 			],
@@ -267,7 +315,7 @@
 			"file": "style.css",
 			"settings":
 			{
-				"buffer_size": 1531,
+				"buffer_size": 2440,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -276,7 +324,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1634,
+				"buffer_size": 10711,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -350,7 +398,8 @@
 	},
 	"expanded_folders":
 	[
-		"/home/sergey/dev/coddy"
+		"/home/sergey/dev/coddy",
+		"/E/coddy-master (2)/coddy-master"
 	],
 	"file_history":
 	[
@@ -485,11 +534,11 @@
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 37.0
 	},
 	"find_in_files":
 	{
-		"height": 98.0,
+		"height": 109.0,
 		"where_history":
 		[
 		]
@@ -499,6 +548,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"png",
+			"Accepted",
 			"div",
 			"our",
 			"ModelNotFoundException",
@@ -624,9 +675,7 @@
 			"pages",
 			"sectionsAll",
 			"sub_sections",
-			"questions",
-			"price",
-			"pricelist"
+			"questions"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -645,7 +694,10 @@
 	"folders":
 	[
 		{
-			"path": "/home/sergey/dev/coddy"
+			"path": "h:ome\\sergey\\dev\\coddy"
+		},
+		{
+			"path": "E:\\coddy-master (2)\\coddy-master"
 		}
 	],
 	"groups":
@@ -660,15 +712,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1531,
+						"buffer_size": 2440,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1481,
-								1481
+								2283,
+								2265
 							]
 						],
 						"settings":
@@ -680,7 +732,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1163.0,
+						"translation.y": 2486.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -692,15 +744,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1634,
+						"buffer_size": 10711,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								608,
-								608
+								9729,
+								9729
 							]
 						],
 						"settings":
@@ -712,7 +764,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 10132.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -723,11 +775,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 25.0
+		"height": 37.0
 	},
 	"input":
 	{
-		"height": 37.0
+		"height": 39.0
 	},
 	"layout":
 	{
@@ -764,7 +816,7 @@
 	"project": "",
 	"replace":
 	{
-		"height": 46.0
+		"height": 70.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -806,7 +858,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 305.0,
+	"side_bar_width": 214.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

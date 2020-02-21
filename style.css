@@ -153,4 +153,12 @@ a:hover .item_description {
  	height: 20px;
  	color:white;
  	font-weight: bold;
+ 	width: auto;
  }
+ .footer {
+ 	display: flex;
+ 	justify-content: space-between;
+ 	max-width: 1000px;
+ 	margin: auto;
+ }
+

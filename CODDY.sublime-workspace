@@ -4,20 +4,32 @@
 		"selected_items":
 		[
 			[
-				"item",
-				"item_description"
+				"itm",
+				"item_img"
 			],
 			[
 				"it",
 				"item_description"
 			],
 			[
-				"item_",
+				"ite",
 				"item_description"
 			],
 			[
-				"ite",
+				"item",
+				"item_description"
+			],
+			[
+				"i",
 				"item_img"
+			],
+			[
+				"iem",
+				"item_description"
+			],
+			[
+				"item_",
+				"item_description"
 			],
 			[
 				"a",
@@ -324,7 +336,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 10711,
+				"buffer_size": 14561,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -548,6 +560,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"blank",
 			"png",
 			"Accepted",
 			"div",
@@ -674,8 +687,7 @@
 			"ошибка",
 			"pages",
 			"sectionsAll",
-			"sub_sections",
-			"questions"
+			"sub_sections"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -703,7 +715,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -719,8 +731,8 @@
 						"selection":
 						[
 							[
-								2283,
-								2265
+								2436,
+								2436
 							]
 						],
 						"settings":
@@ -732,10 +744,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2486.0,
+						"translation.y": 3752.8,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -744,15 +756,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10711,
+						"buffer_size": 14561,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9729,
-								9729
+								14532,
+								14532
 							]
 						],
 						"settings":
@@ -764,10 +776,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 10132.0,
+						"translation.y": 9440.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
